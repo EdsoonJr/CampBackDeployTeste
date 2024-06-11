@@ -8,7 +8,7 @@ require('dotenv').config();
 const app = express();
 const server = http.createServer(app);
 
-const allowedOrigins = ['https://campus-deploy-front.vercel.app'];
+const allowedOrigins = ['https://campfront.onrender.com'];
 
 app.use(cors({
     origin: function (origin, callback) {
